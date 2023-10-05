@@ -1,3 +1,9 @@
+// fuente
+body{
+    font-family: 'Roboto', sans-serif;
+    color: rgb(255, 255, 255);
+}
+
 /* estilo icono NavBar */
 .logo_navbar {
     border-radius: 50px;
@@ -22,8 +28,8 @@
 
 
 
-/* estilo main / contenedor */
-main{
+/* estilo main / contenedor / cards*/
+main {
     background-color: #526D82;
 }
 
@@ -48,6 +54,11 @@ main{
 
 }
 
+.card {
+    max-width: 540px;
+    background-color: rgba(255, 255, 255, 0.5); 
+}
+
 .img-fluid {
     width: 100%;
     height: auto;
@@ -55,7 +66,7 @@ main{
     filter: grayscale(100%);
     border-radius: 10px;
     transition: transform 0.3s ease, border-radius 0.3s ease;
-    
+
 }
 
 
@@ -65,14 +76,15 @@ main{
     border-radius: 5%;
 }
 
-.row{
+.row {
     padding: 10px;
 }
-.card{
+
+
+.card {
     padding: 5px;
+
 }
-
-
 
 
 /*estilo footer */
