@@ -12,6 +12,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/style.css">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
     <!-- SEO -->
     <meta name="description" content="Restobar innovador con propuesta culinaria única y ambiente vanguardista.">
     <meta name="keywords" content="Restobar, NiceBar, Mixologia, intothevoid, Developer">
@@ -24,8 +26,8 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #445069;">
             <div class="container-fluid">
-                <a class="navbar-brand" href="../index.html"><img class="logo_navbar" src="../Assets/Logo.png" width="50px"
-                        height="50px">NiceBar</a>
+                <a class="navbar-brand" href="../index.html"><img class="logo_navbar" src="../Assets/Logo.png"
+                        width="50px" height="50px">NiceBar</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -35,7 +37,7 @@
                     <div class="navbar-nav ms-auto">
                         <a class="nav-link" href="cartabar.html">Carta Bar</a>
                         <a class="nav-link" href="cartaplatos.html">Carta Platos</a>
-                        <a class="nav-link" href="aboutus.html">About</a>
+                        <a class="nav-link" href="aboutus.html">Nosotros</a>
                         <a class="nav-link" href="contacto.html">Contacto</a>
                     </div>
                 </div>
@@ -48,49 +50,64 @@
 
     <!-- Inicio Main -->
 
-    <main>
+    <div class="bgcolor">
+        <main class="container">
 
-        <section class="row">
+            <section class="row">
 
-            <div class="col-md-6">
-                <h1>Contacto</h1>
-                <p>Contáctanos hoy para obtener respuestas rápidas y personalizadas.</p>
-                <form>
-                    <div class="row">
-                        <div class="col-6">
-                            <input type="text" class="form-control" placeholder="Name">
+                <div class="col-md-6">
+                    <h1>Contacto</h1>
+                    <p>¡Estamos emocionados de conocerte! Contáctanos hoy para que podamos brindarte una experiencia
+                        excepcional en nuestro bar. Nuestro equipo está listo para responder a tus preguntas y ofrecerte
+                        un servicio personalizado que satisfaga tus deseos. No dudes en contactarnos y descubrirás
+                        rápidamente por qué somos el lugar perfecto para pasar momentos inolvidables.</p>
+                    <form>
+                        <div class="row">
+                            <div class="col-6">
+                                <input type="text" class="form-control" placeholder="Nombre">
+                            </div>
+                            <div class="col-6">
+                                <input type="email" class="form-control" placeholder="Correo">
+                            </div>
                         </div>
-                        <div class="col-6">
-                            <input type="email" class="form-control" placeholder="E-mail">
-                        </div>
-                    </div>
-                    <input type="text" class="form-control mt-2" placeholder="Subject">
-                    <textarea class="form-control mt-2" name="" id="" cols="30" rows="10"
-                        placeholder="Message"> </textarea>
-                    <input type="submit" value="Enviar" class="btn btn-dark mt-2">
-                </form>
-            </div>
+                        <textarea class="form-control mt-2" name="" id="" cols="30" rows="10"
+                            placeholder="Cuentanos lo que necesites"> </textarea>
+                        <input type="submit" value="Enviar" class="btn btn-dark mt-2">
+                    </form>
+                </div>
 
-            <div class="col-md-6">
+                <div class="col-md-6">
+                    <h2>Nuestra Ubicación</h2>
+                    <p>Nos complace informarte que nuestra ubicación estratégica en el corazón de la ciudad hace que tu
+                        acceso a todas las atracciones y lugares de interés sea sumamente conveniente.</p>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13320.665978254947!2d-70.6028601!3d-33.4189034!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662cfc44de1acfb%3A0x8c387bc0f64af22d!2sMetro%20Tobalaba!5e0!3m2!1ses!2scl!4v1696474464309!5m2!1ses!2scl"
+                        style="width: 100%; height: 80%; border: 0; padding: auto;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
 
-                <h2>Ubicacion</h2>
-                <p>Nuestra ubicación céntrica te acerca a todas partes.</p>
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13320.665978254947!2d-70.6028601!3d-33.4189034!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662cfc44de1acfb%3A0x8c387bc0f64af22d!2sMetro%20Tobalaba!5e0!3m2!1ses!2scl!4v1696474464309!5m2!1ses!2scl"
-                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-        </section>
+            </section>
 
 
-    </main>
-
+        </main>
+    </div>
     <!-- Fin Main -->
 
 
     <!-- Footer -->
     <footer>
-        <p>&copy; Void Code Developer</p>
+        <div>
+            <p>Copyright &copy; 2023 Void Code Developer</p>
+        </div>
+        <hr>
+        <div class="redes-sociales">
+            <a href="https://www.linkedin.com/in/manuel-fuentealba-ortiz-947540176/" target="_blank">
+                <i class="fab fa-linkedin fa-2x" style="color: #0077B5;"></i>
+            </a>
+            <a href="https://github.com/vo1dcod3" target="_blank">
+                <i class="fab fa-github fa-2x" style="color: #333;"></i>
+            </a>
+        </div>
     </footer>
 
 
