@@ -1,0 +1,100 @@
+/* line 2, ../../../OneDrive/Documentos/CoderHouse/Preentrega3Fuentealba/sass/style.scss */
+body {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}
+
+/* estilo icono NavBar */
+/* line 8, ../../../OneDrive/Documentos/CoderHouse/Preentrega3Fuentealba/sass/style.scss */
+.logo_navbar {
+  border-radius: 50px;
+  padding: 2px;
+  transition: all 1s;
+}
+
+/* line 16, ../../../OneDrive/Documentos/CoderHouse/Preentrega3Fuentealba/sass/style.scss */
+.logo_navbar:hover {
+  transform: scale(1.2);
+}
+
+/* line 20, ../../../OneDrive/Documentos/CoderHouse/Preentrega3Fuentealba/sass/style.scss */
+.nav-link {
+  transition: all 1s;
+}
+
+/* line 24, ../../../OneDrive/Documentos/CoderHouse/Preentrega3Fuentealba/sass/style.scss */
+.nav-link:hover {
+  font-size: 25px;
+}
+
+/* estilo main / contenedor / cards*/
+/* line 32, ../../../OneDrive/Documentos/CoderHouse/Preentrega3Fuentealba/sass/style.scss */
+main {
+  background-color: #526D82;
+}
+
+/* line 36, ../../../OneDrive/Documentos/CoderHouse/Preentrega3Fuentealba/sass/style.scss */
+.atributosBar {
+  background-color: #526D82;
+  text-align: start;
+  padding: 5px;
+}
+
+/* line 41, ../../../OneDrive/Documentos/CoderHouse/Preentrega3Fuentealba/sass/style.scss */
+.atributosBar .text-center {
+  color: azure;
+  text-shadow: 2px 2px 2px grey;
+  padding: 5px;
+}
+
+/* line 49, ../../../OneDrive/Documentos/CoderHouse/Preentrega3Fuentealba/sass/style.scss */
+.atributosBar .container .col-6 {
+  color: azure;
+  text-shadow: 2px 2px 2px grey;
+}
+
+/* line 57, ../../../OneDrive/Documentos/CoderHouse/Preentrega3Fuentealba/sass/style.scss */
+.card {
+  max-width: 540px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+/* line 62, ../../../OneDrive/Documentos/CoderHouse/Preentrega3Fuentealba/sass/style.scss */
+.img-fluid {
+  width: 100%;
+  height: auto;
+  transition: filter 0.3s ease;
+  filter: grayscale(100%);
+  border-radius: 10px;
+  transition: transform 0.3s ease, border-radius 0.3s ease;
+}
+
+/* line 73, ../../../OneDrive/Documentos/CoderHouse/Preentrega3Fuentealba/sass/style.scss */
+.img-fluid:hover {
+  filter: grayscale(0%);
+  transform: scale(1.05);
+  border-radius: 5%;
+}
+
+/* line 79, ../../../OneDrive/Documentos/CoderHouse/Preentrega3Fuentealba/sass/style.scss */
+.row {
+  padding: 10px;
+}
+
+/* line 84, ../../../OneDrive/Documentos/CoderHouse/Preentrega3Fuentealba/sass/style.scss */
+.card {
+  padding: 5px;
+}
+
+/*estilo footer */
+/* line 91, ../../../OneDrive/Documentos/CoderHouse/Preentrega3Fuentealba/sass/style.scss */
+footer {
+  padding: 10px;
+  text-align: center;
+  background-color: black;
+  color: white;
+  bottom: 0;
+  width: 100%;
+}
+
+/*# sourceMappingURL=style.css.map */
