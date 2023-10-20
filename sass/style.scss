@@ -4,6 +4,25 @@ body{
     color: rgb(255, 255, 255);
 }
 
+@media (max-width: 767px) {
+    .atributosBar {
+        display: flex;
+        flex-direction: column;
+    }
+    .atributosBar .container {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .atributosBar .container .row {
+        flex-direction: column-reverse;
+    }
+    .atributosBar .container .row .col-6 {
+        margin-bottom: 20px;
+    }
+}
+
+
+
 /* estilo icono NavBar */
 .logo_navbar {
     border-radius: 50px;
@@ -29,8 +48,27 @@ body{
 
 
 /* estilo main / contenedor / cards*/
+.bgcolor{
+    background-color: #526D82;
+}
+
 main {
     background-color: #526D82;
+}
+
+.imagen-full-width {
+    width: 100%;
+    background: url(../Assets/bar.jpg) center center no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+    padding: 60px 0;
+    border-radius: 5px;
+}
+
+.imagen-texto {
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 20px;
 }
 
 .atributosBar {
@@ -54,9 +92,28 @@ main {
 
 }
 
+.tarjeta {
+    transition: transform 0.2s; 
+    padding: 10px;
+}
+
+.tarjeta:hover {
+    transform: scale(1.05); 
+}
+
+.card-img-top{
+    border-radius: 3px; 
+}
+
 .card {
     max-width: 540px;
     background-color: rgba(255, 255, 255, 0.5); 
+    margin: 5px;
+    padding: 5px;
+}
+
+.card tarjeta{
+    border-radius: 4px;
 }
 
 .img-fluid {
@@ -80,19 +137,46 @@ main {
     padding: 10px;
 }
 
-
-.card {
-    padding: 5px;
-
+.tituloplatos{
+    text-align: center;
+    padding: auto;
 }
+
+.presentacionplatos{
+    padding: 25px;
+}
+
+.card-img-top {
+    object-fit: cover; 
+    height: 200px; 
+}
+
+.mt-3{
+    margin-top: 0px !important;
+}
+.container{
+    padding: 30px;
+}
+.galeria {
+    background-color:lightslategrey;
+    width: 100%;
+    border-radius: 5px;
+}
+
+
+
 
 
 /*estilo footer */
 footer {
-    padding: 10px;
+    padding: 20px;
     text-align: center;
     background-color: black;
     color: white;
-    bottom: 0;
+    bottom: 0;  
     width: 100%;
+
+    i{
+        padding: 2px;
+    }
 }
